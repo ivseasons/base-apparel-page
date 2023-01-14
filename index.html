@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>Base Apparel</title>
+     <body class="container">
+    
+            <nav class="nav">
+                <img src="./images/logo.svg" alt="Base Apparel Logo" class="logo-svg">
+            </nav>
+        
+        <div class="right-container">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="./images/hero-desktop.jpg" class="hero-desktop">
+                <img src="./images/hero-mobile.jpg" class="hero-svg" alt="Welcome Image">
+            </picture>
+        </div>
+        <div class="left-container">
+            <h1>We're
+                <span>
+                    coming
+                </span>
+                <span>
+                    soon
+                </span>
+            </h1>
+            <p>
+                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals. 
+            </p>
+            <form class="input-box">
+                <input type="email" id="email" placeholder="Email Address" required>
+                <div class="error-img" id="error-sign">
+                    <img src="./images/icon-error.svg" alt="Error Icon" class="error.svg">
+                </div>
+                <button id="submit"><img src="./images/icon-arrow.svg"></button>
+            </form>
+            <p class="message" id="mssg"></p>
+        </div>
+  
+        <script src="index.js"></script>
+    </body>
+</html>
