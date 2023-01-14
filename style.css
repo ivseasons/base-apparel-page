@@ -68,10 +68,9 @@ p {
 
 input[type="email"] {
     padding: 1.3em 2em;;
-    width: 80%;
+    width: 100%;
     border-radius: 2em;
     border: solid .8px hsl(0, 36%, 70%);
-    /*background: hsl(0, 100%, 98%);*/
     background: none;
     color: hsl(0, 6%, 24%);
     font-family: 'Josefin Sans', sans-serif;
@@ -193,11 +192,6 @@ p.message {
 
     p {
         font-size: 1rem;
-    }
-
-    input[type="email"] {
-        background: none;
-        width: 100%;
     }
 
 }
